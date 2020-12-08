@@ -14,16 +14,29 @@ You can import the required library in your html file
 
 ## Usage
 
+### Initialize
+
 After importing Megonesia Translate correctly, you can initialize the Megonesia Translate
 
 ```javascript
 MegoTranslate = {};
 ```
 
+### HTML usage
+
 And in your HTML tags
 
 ```html
 <div data-mego-translate="lowercase key">Your Default Text</div>
+```
+
+### Language Switch Toggle
+
+You may need to add language switch toggle feature on your application
+
+```html
+<a href="#" data-mego-toggle="translate" data-mego-language="eng">English</a>
+<a href="#" data-mego-toggle="translate" data-mego-language="id">Indonesian</a>
 ```
 
 ## Supported Data

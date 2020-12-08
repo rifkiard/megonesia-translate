@@ -43,5 +43,7 @@ Input data has to be of type Objects and must be look like:
 
 Currently Support:
 
-- Indonesian (id)
-- English (eng)
+| Country   | Alias |
+| :-------- | :---- |
+| English   | eng   |
+| Indonesia | id    |

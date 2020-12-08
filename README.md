@@ -19,7 +19,11 @@ You can import the required library in your html file
 After importing Megonesia Translate correctly, you can initialize the Megonesia Translate
 
 ```javascript
-MegoTranslate = {};
+MegoTranslate = {
+  /*
+   * To do: Add your languages data here
+   */
+};
 ```
 
 ### HTML usage
